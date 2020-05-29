@@ -1,7 +1,10 @@
 import 'design-system'
 
-declare module 'design-system' {
+declare module 'design-system/dist/design-system' {
   export interface Colors {
-    tertiary: string
+    tertiary: 'hotpink'
+  }
+  export interface Spacings {
+    xlarge: 4
   }
 }

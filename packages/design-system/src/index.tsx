@@ -1,6 +1,3 @@
-export interface Colors {
-  primary: string
-  secondary: string
-}
-
+export * from './design-system'
 export * from './Box'
+export * from './Text'

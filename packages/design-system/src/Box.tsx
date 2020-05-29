@@ -1,9 +1,10 @@
 import * as React from 'react'
 import { LiteralUnion } from 'type-fest'
 
-import { Colors } from './index'
+import { Colors, Spacings } from './index'
 
 export interface BoxProps {
+  padding?: keyof Spacings | number
   backgroundColor?: LiteralUnion<keyof Colors, string>
   color?: LiteralUnion<keyof Colors, string>
   children: React.ReactNode
